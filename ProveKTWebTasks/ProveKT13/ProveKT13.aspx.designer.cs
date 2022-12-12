@@ -7,65 +7,83 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProveKTWebTasks.ProveKT12
+namespace ProveKTWebTasks.ProveKT13
 {
 
 
-    public partial class ProveKT12
+    public partial class ProveKT13
     {
 
         /// <summary>
-        /// form1 control.
+        /// idno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox idno;
 
         /// <summary>
-        /// label1 control.
+        /// requiredfielddata control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfielddata;
 
         /// <summary>
-        /// Store control.
+        /// radio1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox Store;
+        protected global::System.Web.UI.WebControls.RadioButtonList radio1;
 
         /// <summary>
-        /// Img control.
+        /// requiredfielddata1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Img;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfielddata1;
 
         /// <summary>
-        /// Find control.
+        /// cardtype control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Find;
+        protected global::System.Web.UI.WebControls.DropDownList cardtype;
 
         /// <summary>
-        /// Cost control.
+        /// requiredfielddata2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Cost;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfielddata2;
+
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }
