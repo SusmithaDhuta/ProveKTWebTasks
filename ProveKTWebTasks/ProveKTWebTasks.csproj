@@ -462,6 +462,7 @@
     <Content Include="ProveKT12\Sprite.jpg" />
     <Content Include="ProveKT13\ProveKT13.aspx" />
     <Content Include="ProveKT14\Formexp.aspx" />
+    <Content Include="ProveKT15\ProveKT15.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -500,6 +501,13 @@
     </Compile>
     <Compile Include="ProveKT14\Formexp.aspx.designer.cs">
       <DependentUpon>Formexp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProveKT15\ProveKT15.aspx.cs">
+      <DependentUpon>ProveKT15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProveKT15\ProveKT15.aspx.designer.cs">
+      <DependentUpon>ProveKT15.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
