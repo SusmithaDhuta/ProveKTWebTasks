@@ -16,9 +16,10 @@
                 <asp:ListItem Value="30">Coffee</asp:ListItem>
                 <asp:ListItem Value="40">Juice</asp:ListItem>
             </asp:ListBox> <br/> <br/>
-            <asp:Button ID="Button1" runat="server" Text="Button" /> <br/> <br/>
 
-            <asp:Image ID="Image1" runat="server" /> <br />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click1" /> <br/> <br/>
+
+            <asp:Image ID="Image1" runat="server"/> <br />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 
 
