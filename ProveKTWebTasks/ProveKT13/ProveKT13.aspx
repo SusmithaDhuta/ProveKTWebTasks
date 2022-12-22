@@ -13,7 +13,7 @@
  } 
 
 </script> 
-<body bgcolor="green"> 
+<body> 
 
 <form runat="server"> 
 
