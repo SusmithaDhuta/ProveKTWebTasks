@@ -455,7 +455,14 @@
     <Content Include="ProveKT10\main.css" />
     <Content Include="ProveKT10\ProveKT10.aspx" />
     <Content Include="ProveKT11\ProveKT11.aspx" />
+    <Content Include="ProveKT12\Coffee.jpg" />
+    <Content Include="ProveKT12\Coke.jpg" />
+    <Content Include="ProveKT12\Juice.jpg" />
     <Content Include="ProveKT12\ProveKT12.aspx" />
+    <Content Include="ProveKT12\Sprite.jpg" />
+    <Content Include="ProveKT13\ProveKT13.aspx" />
+    <Content Include="ProveKT14\Formexp.aspx" />
+    <Content Include="ProveKT15\ProveKT15.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -480,6 +487,27 @@
     </Compile>
     <Compile Include="ProveKT12\ProveKT12.aspx.designer.cs">
       <DependentUpon>ProveKT12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProveKT13\ProveKT13.aspx.cs">
+      <DependentUpon>ProveKT13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProveKT13\ProveKT13.aspx.designer.cs">
+      <DependentUpon>ProveKT13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProveKT14\Formexp.aspx.cs">
+      <DependentUpon>Formexp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProveKT14\Formexp.aspx.designer.cs">
+      <DependentUpon>Formexp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProveKT15\ProveKT15.aspx.cs">
+      <DependentUpon>ProveKT15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProveKT15\ProveKT15.aspx.designer.cs">
+      <DependentUpon>ProveKT15.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
