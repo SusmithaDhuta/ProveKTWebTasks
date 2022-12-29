@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "sum";
+}
+
+
+<div>
+    <h1>Task16</h1>
+    <p>
+        Write a program that displays a button in green color and it should change into yellow when the mouse moves over it
+
+    </p>
+
+    @*<form class="navbar-form navbar-left">
+    <a href="@Url.Action("Index", "Home")" type="button" class="btn navbar-btn">
+    <span style="font-size:2em;" class="glyphicon glyphicon-cog"></span></a>
+    </form>*@
+
+    <input type="button" value="Click Here" style="background-color: green" onmouseover="this.style.backgroundColor='yellow'"
+           onmouseout="this.style.backgroundColor='green'" />
+
+</div>
+
+
+<div>
+
+<h1>Task17</h1>
+<p>
+        Create a component that receives two numbers from the user through a Web Form, and based on the user’s selection it adds or subtracts the two numbers and returns the result to the Web Form. The result should be displayed in the Web Form.
+  </p>
+
+
+<form asp-controller="Home" asp-action="add" method="post">
+    <span>
+        Enter 1st Number:
+        <input id="num1" type="text" name="txtFirst">
+    </span><br/><br/>
+    <span>
+        Enter 2nd Number:
+        <input id="num2" type="text" name="txtSecond">
+    </span><br/><br/>
+    <input id="Submit1" type="submit" value="Submit" name="submit" />
+</form>
+<br />
+<h6>Total</h6>
+
+<h2>@ViewBag.SumResult</h2>
+
+
+<br />
+<br />
+</div>
+
+

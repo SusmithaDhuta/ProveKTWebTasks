@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "sum";
+}
+
+<div class="row task-2-body">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="lblFirstNumber">First number <span class="mandatory">*</span></label>
+                <input type="number" class="form-control txt-add-sub" id="txtFirstNumber" placeholder="Enter first number">
+            </div>
+            <div class="form-group">
+                <label for="lblSecondNumber">Second number <span class="mandatory">*</span></label>
+                <input type="number" class="form-control txt-add-sub" id="txtSecondNumber" placeholder="Enter second number">
+            </div>
+        </div>
+        <div class="col-md-2 pt-5">
+            <div class="form-group text-center">
+                <button type="button" class="btn btn-primary btn-add-sub" id="btnAddition">Add</button>
+            </div>
+            <div class="form-group text-center">
+                <button type="button" class="btn btn-warning btn-add-sub" id="btnSubtraction">Subtract</button>
+            </div>
+        </div>
+        <div class="col-md-7 result-align">
+            <div class="text-left">
+                <span>The result is : </span>
+                <span class="result-value" id="spanResult">0</span>
+            </div>
+        </div>
+    </div>
